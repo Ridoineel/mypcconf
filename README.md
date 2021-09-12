@@ -1,10 +1,15 @@
 # mypcconf
-Renseigment de matériels utilisés par les éleves pour le cours d'INF113 (CIC/S2)
 
-Créer une base de donnée "mypcconf" et ajouter la table "configsinfos" avec le schéma si-dessous:
+**Renseigment de matériels utilisés par les éleves pour le cours d'INF113 (CIC/S2)**
 
-configsinfos (
-    _id int primary key auto_increment,
+Avant toute utilisation:
+_______________________
+
+Créer une base de donnée **"mypcconf"** et ajouter la table **"configsinfos"** avec le schéma si-dessous:
+
+_configsinfos_ (
+
+    id int primary key auto_increment,
     card_number int primary key,
     name varchar(256),
     first_name varchar(256),
@@ -16,13 +21,11 @@ configsinfos (
     battery varchar(256),
     keyboard varchar(256),
     screen varchar(256)
+  
 )
 
-Dans includes/bdConnection.php se trouve les configurations pour la connexion à la base de donnée. 
+Dans _includes/bdConnection.php_ se trouve les configurations pour la connexion à la base de donnée. 
 Mettre à jour cette partie pour pouvoir accéder à la base de donnée.
 
-En mode Developpement, la varaible $DEBUG dans /includes/nav.php et /includes/head.php est à true, 
+En mode Developpement, la varaible **$DEBUG** dans _/includes/nav.php_ et _/includes/head.php_ est à true, 
 donc doit être mis à false avant la mise en ligne.
-
-
-
