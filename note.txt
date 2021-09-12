@@ -1,0 +1,14 @@
+Table Student_Material (
+    _id int primary key auto_increment,
+    card_number int primary key,
+    name varchar(256),
+    first_name varchar(256),
+    speciality varchar(256),
+    machine varchar(256),
+    hd int,
+    ram int,
+    cpu int,
+    battery varchar(256),
+    keyboard varchar(256),
+    screen varchar(256)
+)

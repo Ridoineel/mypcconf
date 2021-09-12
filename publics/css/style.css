@@ -1,0 +1,129 @@
+:root {
+    --mint: #16B84E;
+    --pastel-mint: #ccffde;
+    --color-primary: var(--mint);
+    --color-secondary: var(--pastel-mint);
+}
+
+.color-mint {
+    color: var(--color-primary);
+}
+
+.bg-pastel-mint {
+    background: var(--pastel-mint);
+}
+
+.mint-box {
+    color: var(--color-primary);
+    background: var(--pastel-mint);
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--color-primary);
+}
+
+#page_body {
+    background: url("../images/snk.png") fixed no-repeat ;
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.table_dark--merge {
+    border-collapse: collapse;
+}
+
+.table_dark--merge thead {
+    font-weight: bold;
+
+}
+.table_dark--merge thead {
+    background-color: #555;
+    color: white;
+}
+
+.table_dark--merge td {
+    border: 1px solid #555;
+}
+
+.table_dark--merge td:nth-last-child() {
+    background-color: #555;;
+}
+
+
+/*
+header h1 {
+    animation: anim 4s;
+    text-transform: uppercase;
+    margin-top: 40vh;
+} */
+
+/* form {
+    display: flex;
+    align-content: center;
+} */
+
+.form-control--transparent {
+    background: transparent !important;
+    color: white !important;
+}
+
+.jub3d,
+.jub3d-light {
+	box-shadow: 0px 0px 20px #DDD;
+	padding: 15px;
+	border-radius: 5px;
+}
+.jub3d-dark {
+    box-shadow: 0px 0px 20px #000;
+
+}
+.full-screen, 
+.full-screen-100 {
+    height: 100vh;
+}
+.full-screen-75 {
+    height: 75vh;
+}
+.full-screen-50 {
+    height: 50vh;
+}
+.full-screen-25 {
+    height: 25vh;
+}
+
+.transparence {
+    background-color: unset;
+}
+
+
+@keyframes anim {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+       
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#myvideo {
+    
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
