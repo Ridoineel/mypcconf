@@ -27,5 +27,5 @@ _configsinfos_ (
 Dans _includes/bdConnection.php_ se trouve les configurations pour la connexion à la base de donnée. 
 Mettre à jour cette partie pour pouvoir accéder à la base de donnée.
 
-En mode Developpement, la varaible **$DEBUG** dans _/includes/nav.php_ et _/includes/head.php_ est à true, 
-donc doit être mis à false avant la mise en ligne.
+En mode Developpement, la varaible **$DEBUG** dans _/includes/nav.php_ et _/includes/head.php_ est à **true**, 
+donc doit être mis à **false** avant la mise en ligne.
